@@ -738,4 +738,423 @@
 [2016.01.30-19.07.08:812][651]LogWorld: Game class is 'ThirdPersonGameMode_C'
 [2016.01.30-19.07.08:839][651]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.01.30-11.07.08
 [2016.01.30-19.07.08:839][651]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.01.30-19.07.08:840][651]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonE
+[2016.01.30-19.07.08:840][651]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-19.07.08:844][651]LogWorld: Bringing up level for play took: 0.021758
+[2016.01.30-19.07.08:869][651]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.425
+[2016.01.30-19.07.08:869][651]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-19.07.24:205][257]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-19.07.24:279][257]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-19.07.24:390][258]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000042495B20
+[2016.01.30-19.12.22:330][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_472 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_472
+[2016.01.30-19.12.22:330][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_472 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_472
+[2016.01.30-19.12.22:330][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_472.EdGraphPin_5794) from referencer (EdGraphPin /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_ActorBoundEvent_5.EdGraphPin_5632).  Import failed...
+[2016.01.30-19.12.22:330][843]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_472.EdGraphPin_5794''
+[2016.01.30-19.12.22:330][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_472 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_472
+[2016.01.30-19.12.22:330][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_472 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_472
+[2016.01.30-19.12.22:330][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_472.EdGraphPin_5797) from referencer (EdGraphPin /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_ActorBoundEvent_5.EdGraphPin_5633).  Import failed...
+[2016.01.30-19.12.22:330][843]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_472.EdGraphPin_5797''
+[2016.01.30-19.12.22:330][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BedTrigger) from referencer (K2Node_ActorBoundEvent /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_ActorBoundEvent_5).  Import failed...
+[2016.01.30-19.12.22:330][843]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerVolume'/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BedTrigger''
+[2016.01.30-19.12.22:332][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_504 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_504
+[2016.01.30-19.12.22:332][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_504.EdGraphPin_5842) from referencer (EdGraphPin /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_472.EdGraphPin_5795).  Import failed...
+[2016.01.30-19.12.22:332][843]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_504.EdGraphPin_5842''
+[2016.01.30-19.12.22:332][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_477 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_477
+[2016.01.30-19.12.22:332][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_477 or K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.ExecuteUbergraph_ThirdPersonExampleMap.K2Node_DynamicCast_477
+[2016.01.30-19.12.22:332][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_477.EdGraphPin_5812) from referencer (EdGraphPin /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_ActorBoundEvent_14.EdGraphPin_5645).  Import failed...
+[2016.01.30-19.12.22:332][843]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_477.EdGraphPin_5812''
+[2016.01.30-19.12.22:332][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_477 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_477
+[2016.01.30-19.12.22:332][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_477 or K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.ExecuteUbergraph_ThirdPersonExampleMap.K2Node_DynamicCast_477
+[2016.01.30-19.12.22:332][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_477.EdGraphPin_5815) from referencer (EdGraphPin /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_ActorBoundEvent_14.EdGraphPin_5646).  Import failed...
+[2016.01.30-19.12.22:332][843]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_477.EdGraphPin_5815''
+[2016.01.30-19.12.22:332][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BedTrigger) from referencer (K2Node_ActorBoundEvent /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_ActorBoundEvent_14).  Import failed...
+[2016.01.30-19.12.22:332][843]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerVolume'/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BedTrigger''
+[2016.01.30-19.12.22:333][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_513 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_513
+[2016.01.30-19.12.22:333][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_513.EdGraphPin_5875) from referencer (EdGraphPin /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_477.EdGraphPin_5813).  Import failed...
+[2016.01.30-19.12.22:333][843]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_513.EdGraphPin_5875''
+[2016.01.30-19.12.22:333][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_504 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_504
+[2016.01.30-19.12.22:333][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_504.EdGraphPin_5845) from referencer (EdGraphPin /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_CallFunction_2820.EdGraphPin_5833).  Import failed...
+[2016.01.30-19.12.22:333][843]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_504.EdGraphPin_5845''
+[2016.01.30-19.12.22:333][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_513 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_513
+[2016.01.30-19.12.22:333][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_513.EdGraphPin_5878) from referencer (EdGraphPin /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_CallFunction_2820.EdGraphPin_5833).  Import failed...
+[2016.01.30-19.12.22:333][843]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_513.EdGraphPin_5878''
+[2016.01.30-19.12.22:334][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_93 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_93
+[2016.01.30-19.12.22:334][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_93.EdGraphPin_5860) from referencer (EdGraphPin /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_504.EdGraphPin_5843).  Import failed...
+[2016.01.30-19.12.22:334][843]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_93.EdGraphPin_5860''
+[2016.01.30-19.12.22:334][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_93 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_93
+[2016.01.30-19.12.22:334][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_93.EdGraphPin_5864) from referencer (EdGraphPin /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_504.EdGraphPin_5846).  Import failed...
+[2016.01.30-19.12.22:334][843]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_93.EdGraphPin_5864''
+[2016.01.30-19.12.22:335][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_94 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_94
+[2016.01.30-19.12.22:335][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_94.EdGraphPin_5893) from referencer (EdGraphPin /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_513.EdGraphPin_5876).  Import failed...
+[2016.01.30-19.12.22:335][843]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_94.EdGraphPin_5893''
+[2016.01.30-19.12.22:335][843]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_94 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_94
+[2016.01.30-19.12.22:335][843]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_94.EdGraphPin_5897) from referencer (EdGraphPin /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_513.EdGraphPin_5879).  Import failed...
+[2016.01.30-19.12.22:335][843]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_94.EdGraphPin_5897''
+[2016.01.30-19.18.14:158][878]LogSavePackage: Save=852.232300ms
+[2016.01.30-19.18.14:158][878]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/ThirdPersonExampleMap_Auto4698FBF3249A0BBB15359DA9971504FFE.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2016.01.30-19.18.14:164][878]LogSavePackage: Total save time: 878.351625ms
+[2016.01.30-19.18.14:164][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2016.01.30-19.18.14:168][878]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.969
+[2016.01.30-19.18.14:168][878]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.969
+[2016.01.30-19.18.14:190][878]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/TriggerBP] ([1] browsable assets)...
+[2016.01.30-19.18.14:190][878]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/TriggerBP]
+[2016.01.30-19.18.14:242][878]LogSavePackage: Save=39.053398ms
+[2016.01.30-19.18.14:242][878]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/TriggerBP_Auto489B545B4440426808F30C7B7521682E0.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/Autosaves/Game/Blueprint/TriggerBP_Auto4.uasset'
+[2016.01.30-19.18.14:249][878]LogSavePackage: Total save time: 56.359187ms
+[2016.01.30-19.18.14:249][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/Autosaves/Game/Blueprint/TriggerBP_Auto4.uasset
+[2016.01.30-19.18.14:255][878]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/NewInterface] ([1] browsable assets)...
+[2016.01.30-19.18.14:255][878]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/NewInterface]
+[2016.01.30-19.18.14:264][878]LogSavePackage: Save=5.975275ms
+[2016.01.30-19.18.14:264][878]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/NewInterface_Auto4AC0229FB45DB9DFD1E6DBC9228FCA4F2.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/Autosaves/Game/Blueprint/NewInterface_Auto4.uasset'
+[2016.01.30-19.18.14:270][878]LogSavePackage: Total save time: 12.582969ms
+[2016.01.30-19.18.14:270][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/Autosaves/Game/Blueprint/NewInterface_Auto4.uasset
+[2016.01.30-19.18.14:270][878]LogFileHelpers: Auto-saving content packages took 0.090
+[2016.01.30-19.18.58:959][ 19]LogSavePackage: Save=732.136841ms
+[2016.01.30-19.18.58:959][ 19]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/ThirdPersonExampleMap2834AC8A456478B495360FA2924963E6.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.01.30-19.18.58:971][ 19]LogSavePackage: Total save time: 748.353649ms
+[2016.01.30-19.18.58:971][ 19]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.01.30-19.18.59:012][ 19]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.073
+[2016.01.30-19.18.59:026][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/TriggerBP" FILE="../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/Blueprint/TriggerBP.uasset" SILENT=true
+[2016.01.30-19.18.59:067][ 19]LogSavePackage: Save=35.116596ms
+[2016.01.30-19.18.59:067][ 19]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/TriggerBP5BFD7833434B657F595A8FB965FDC0A9.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/Blueprint/TriggerBP.uasset'
+[2016.01.30-19.18.59:079][ 19]LogSavePackage: Total save time: 50.478049ms
+[2016.01.30-19.18.59:079][ 19]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/Blueprint/TriggerBP.uasset
+[2016.01.30-19.18.59:088][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/NewInterface" FILE="../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/Blueprint/NewInterface.uasset" SILENT=true
+[2016.01.30-19.18.59:098][ 19]LogSavePackage: Save=6.872416ms
+[2016.01.30-19.18.59:098][ 19]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/NewInterface19E2E8B64407F2E258E3779715716E8C.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/Blueprint/NewInterface.uasset'
+[2016.01.30-19.18.59:108][ 19]LogSavePackage: Total save time: 17.179802ms
+[2016.01.30-19.18.59:108][ 19]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/Blueprint/NewInterface.uasset
+[2016.01.30-19.21.35:582][373]Cmd: EDIT COPY
+[2016.01.30-19.21.46:391][696]Cmd: EDIT PASTE
+[2016.01.30-19.23.35:381][981]LogUObjectGlobals:Warning: Failed to find object 'Object None.No Results found'
+[2016.01.30-19.23.53:022][454]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_40.EdGraphPin_24303''
+[2016.01.30-19.23.53:022][454]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_504 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_504
+[2016.01.30-19.23.53:022][454]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_504.EdGraphPin_5842''
+[2016.01.30-19.23.53:023][454]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_40.EdGraphPin_24304''
+[2016.01.30-19.23.53:023][454]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_477 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_477
+[2016.01.30-19.23.53:023][454]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_477 or K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.ExecuteUbergraph_ThirdPersonExampleMap.K2Node_DynamicCast_477
+[2016.01.30-19.23.53:023][454]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_477.EdGraphPin_5812''
+[2016.01.30-19.23.53:023][454]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_477 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_477
+[2016.01.30-19.23.53:023][454]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_477 or K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.ExecuteUbergraph_ThirdPersonExampleMap.K2Node_DynamicCast_477
+[2016.01.30-19.23.53:024][454]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_477.EdGraphPin_5815''
+[2016.01.30-19.23.53:024][454]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_513 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_513
+[2016.01.30-19.23.53:024][454]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_513.EdGraphPin_5875''
+[2016.01.30-19.23.53:025][454]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_504 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_504
+[2016.01.30-19.23.53:025][454]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_504.EdGraphPin_5845''
+[2016.01.30-19.23.53:025][454]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_513 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_513
+[2016.01.30-19.23.53:025][454]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_513.EdGraphPin_5878''
+[2016.01.30-19.23.53:025][454]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_93 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_93
+[2016.01.30-19.23.53:025][454]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_93.EdGraphPin_5860''
+[2016.01.30-19.23.53:026][454]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_93 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_93
+[2016.01.30-19.23.53:026][454]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_93.EdGraphPin_5864''
+[2016.01.30-19.23.53:027][454]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_94 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_94
+[2016.01.30-19.23.53:027][454]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_94.EdGraphPin_5893''
+[2016.01.30-19.23.53:027][454]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_94 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_94
+[2016.01.30-19.23.53:027][454]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_94.EdGraphPin_5897''
+[2016.01.30-19.27.17:232][845]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-19.29.25:267][215]LogEnum:Warning: Enum Text RitualStepEnum::NewEnumerator0 for Enum RitualStepEnum failed to resolve to any value
+[2016.01.30-19.29.35:994][430]LogEnum:Warning: Enum Text RitualStepEnum::NewEnumerator1 for Enum RitualStepEnum failed to resolve to any value
+[2016.01.30-19.29.44:070][591]LogEnum:Warning: Enum Text RitualStepEnum::NewEnumerator2 for Enum RitualStepEnum failed to resolve to any value
+[2016.01.30-19.30.03:992][989]LogEnum:Warning: Enum Text RitualStepEnum::NewEnumerator3 for Enum RitualStepEnum failed to resolve to any value
+[2016.01.30-19.30.14:653][202]LogEnum:Warning: Enum Text RitualStepEnum::NewEnumerator4 for Enum RitualStepEnum failed to resolve to any value
+[2016.01.30-19.30.24:237][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.30-19.30.24:309][394]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E7F5120
+[2016.01.30-19.30.24:324][394]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F897100
+[2016.01.30-19.30.25:491][394]LogSavePackage: Save=884.532898ms
+[2016.01.30-19.30.25:491][394]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/ThirdPersonExampleMap7325F0DF4CC0C4DD0B825383938C0A3D.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.01.30-19.30.25:504][394]LogSavePackage: Total save time: 912.885703ms
+[2016.01.30-19.30.25:504][394]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.01.30-19.30.25:552][394]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.215
+[2016.01.30-19.30.25:796][394]LogSavePackage: Save=149.551392ms
+[2016.01.30-19.30.25:796][394]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/ThirdPersonCharacterE7F080AC4FCAE976C3738B9D3652093E.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.01.30-19.30.25:808][394]LogSavePackage: Total save time: 169.066239ms
+[2016.01.30-19.30.25:808][394]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.01.30-19.30.25:824][394]LogSavePackage: Save=3.055941ms
+[2016.01.30-19.30.25:824][394]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/RitualStepEnum8E26C6274B58BF43AA7E0E8AB9ADB105.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Blueprints/RitualStepEnum.uasset'
+[2016.01.30-19.30.25:833][394]LogSavePackage: Total save time: 12.060259ms
+[2016.01.30-19.30.25:833][394]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Blueprints/RitualStepEnum.uasset
+[2016.01.30-19.33.29:842][953]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_63.EdGraphPin_24941''
+[2016.01.30-19.33.29:842][953]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_504 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_504
+[2016.01.30-19.33.29:842][953]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_504.EdGraphPin_24688''
+[2016.01.30-19.33.29:843][953]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_63.EdGraphPin_24940''
+[2016.01.30-19.33.29:844][953]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_67.EdGraphPin_25010''
+[2016.01.30-19.33.29:844][953]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_513 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_513
+[2016.01.30-19.33.29:844][953]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_513.EdGraphPin_24721''
+[2016.01.30-19.33.29:844][953]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_67.EdGraphPin_25009''
+[2016.01.30-19.33.29:846][953]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_504 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_504
+[2016.01.30-19.33.29:846][953]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_504.EdGraphPin_24691''
+[2016.01.30-19.33.29:846][953]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_513 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_513
+[2016.01.30-19.33.29:846][953]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_513.EdGraphPin_24724''
+[2016.01.30-19.33.29:847][953]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_93 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_93
+[2016.01.30-19.33.29:847][953]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_93.EdGraphPin_24710''
+[2016.01.30-19.33.29:848][953]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_93 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_93
+[2016.01.30-19.33.29:848][953]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_93.EdGraphPin_24706''
+[2016.01.30-19.33.29:850][953]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_94 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_94
+[2016.01.30-19.33.29:850][953]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_94.EdGraphPin_24743''
+[2016.01.30-19.33.29:851][953]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_94 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_94
+[2016.01.30-19.33.29:851][953]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_94.EdGraphPin_24739''
+[2016.01.30-19.36.12:671][ 89]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2016.01.30-19.36.12:671][ 89]LogSynthBenchmark:Display: ===============
+[2016.01.30-19.36.12:671][ 89]LogSynthBenchmark:Display: Main Processor:
+[2016.01.30-19.36.12:732][ 89]LogSynthBenchmark:Display:          ... 0.032677 s/Run 'RayIntersect'
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:          ... 0.029193 s/Run 'Fractal'
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display: 
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   CPU Perf Index 0: 78.4
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   CPU Perf Index 1: 98.0
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:  
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display: Graphics:
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics 4600'
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   Vendor Id: 0x8086
+[2016.01.30-19.36.12:733][ 89]LogSynthBenchmark:Display:   GPU Memory: 64/0/1632 MB
+[2016.01.30-19.36.12:778][ 89]LogSynthBenchmark:Display:   GPU first test: 0.02s
+[2016.01.30-19.36.12:778][ 89]LogSynthBenchmark:Display:          ... 0.658 GigaPix/s, Confidence=89% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2016.01.30-19.36.12:778][ 89]LogSynthBenchmark:Display:          ... 0.470 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2016.01.30-19.36.12:778][ 89]LogSynthBenchmark:Display:          ... 0.442 GigaPix/s, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
+[2016.01.30-19.36.12:778][ 89]LogSynthBenchmark:Display:          ... 1.585 GigaPix/s, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2016.01.30-19.36.12:778][ 89]LogSynthBenchmark:Display:          ... 0.121 GigaPix/s, Confidence=89% 'Bandwidth' (likely to be very inaccurate)
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:   GPU second test: 0.10s
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:          ... 0.895 GigaPix/s, Confidence=89% 'ALUHeavyNoise' (likely to be inaccurate)
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:          ... 0.601 GigaPix/s, Confidence=89% 'TexHeavy' (likely to be inaccurate)
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:          ... 0.548 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:          ... 3.940 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:          ... 0.132 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:          ... 0.895 GigaPix/s, Confidence=89% 'ALUHeavyNoise'
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:          ... 0.601 GigaPix/s, Confidence=89% 'TexHeavy'
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:          ... 0.548 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:          ... 3.940 GigaPix/s, Confidence=100% 'FillOnly'
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:          ... 0.132 GigaPix/s, Confidence=100% 'Bandwidth'
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display: 
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:   GPU Perf Index 0: 19.4
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:   GPU Perf Index 1: 8.1
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:   GPU Perf Index 2: 14.2
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:   GPU Perf Index 3: 15.5
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:   GPU Perf Index 4: 12.3
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:   CPUIndex: 78.4
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:   GPUIndex: 19.4
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display: 
+[2016.01.30-19.36.12:887][ 89]LogSynthBenchmark:Display:          ... Total Time: 0.216538 sec
+[2016.01.30-19.36.12:901][ 89]LogContentStreaming: Texture pool size now 400 MB
+[2016.01.30-19.36.13:359][ 91]LogRenderer: Reallocating scene render targets to support 808x588 (Frame:85745).
+[2016.01.30-19.37.40:495][104]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2016.01.30-19.37.40:559][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-19.37.40:624][104]BlueprintEditorCompileResults: Info [5026.57] Compile of ThirdPersonExampleMap successful! [in 128 ms]
+[2016.01.30-19.37.57:741][116]Cmd: EDIT COPY
+[2016.01.30-19.37.58:297][149]Cmd: EDIT PASTE
+[2016.01.30-19.38.30:876][ 89]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (BedTrigger)
+[2016.01.30-19.38.36:056][391]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (KitchenTrigger)
+[2016.01.30-19.38.44:822][910]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (SinkTrigger)
+[2016.01.30-19.42.10:833][801]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_EnumEquality_6.EdGraphPin_27531''
+[2016.01.30-19.42.10:833][801]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_20.EdGraphPin_27525''
+[2016.01.30-19.42.36:579][311]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_EnumEquality_6.EdGraphPin_27531''
+[2016.01.30-19.42.36:580][311]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_20.EdGraphPin_27525''
+[2016.01.30-19.43.17:823][751]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-19.43.18:728][751]LogSavePackage: Save=814.010559ms
+[2016.01.30-19.43.18:728][751]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/ThirdPersonExampleMap_Auto56C9455704C53AD1E9E2359974AED99D1.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2016.01.30-19.43.18:734][751]LogSavePackage: Total save time: 834.813584ms
+[2016.01.30-19.43.18:734][751]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2016.01.30-19.43.18:738][751]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.915
+[2016.01.30-19.43.18:738][751]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.915
+[2016.01.30-19.45.36:156][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_147.EdGraphPin_27326''
+[2016.01.30-19.45.36:156][919]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_504 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_504
+[2016.01.30-19.45.36:157][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_504.EdGraphPin_25760''
+[2016.01.30-19.45.36:157][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_147.EdGraphPin_27325''
+[2016.01.30-19.45.36:157][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_153.EdGraphPin_27421''
+[2016.01.30-19.45.36:157][919]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_513 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_513
+[2016.01.30-19.45.36:157][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_513.EdGraphPin_25793''
+[2016.01.30-19.45.36:157][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_153.EdGraphPin_27420''
+[2016.01.30-19.45.36:158][919]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_504 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_504
+[2016.01.30-19.45.36:158][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_504.EdGraphPin_25763''
+[2016.01.30-19.45.36:158][919]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_513 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_513
+[2016.01.30-19.45.36:158][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_513.EdGraphPin_25796''
+[2016.01.30-19.45.36:159][919]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_93 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_93
+[2016.01.30-19.45.36:159][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_93.EdGraphPin_25782''
+[2016.01.30-19.45.36:159][919]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_93 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_93
+[2016.01.30-19.45.36:159][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_93.EdGraphPin_25778''
+[2016.01.30-19.45.36:159][919]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_94 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_94
+[2016.01.30-19.45.36:159][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_94.EdGraphPin_25815''
+[2016.01.30-19.45.36:160][919]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_94 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_94
+[2016.01.30-19.45.36:160][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_94.EdGraphPin_25811''
+[2016.01.30-19.45.36:160][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_20.EdGraphPin_27575''
+[2016.01.30-19.45.36:161][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_20.EdGraphPin_27577''
+[2016.01.30-19.45.36:162][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_EnumEquality_6.EdGraphPin_27567''
+[2016.01.30-19.45.36:163][919]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_20.EdGraphPin_27576''
+[2016.01.30-19.46.03:350][420]Cmd: EDIT COPY
+[2016.01.30-19.46.03:723][442]Cmd: EDIT PASTE
+[2016.01.30-19.47.43:733][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.30-19.47.45:007][434]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (KitchenTrigger)
+[2016.01.30-19.47.54:125][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.30-19.47.54:855][  8]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (BedTrigger)
+[2016.01.30-19.47.59:014][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.30-19.47.59:780][293]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (LivingRoomTrigger)
+[2016.01.30-19.48.12:786][ 66]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (SinkTrigger)
+[2016.01.30-19.48.22:084][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.30-19.48.22:692][651]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (BedTrigger)
+[2016.01.30-19.50.14:385][882]Cmd: EDIT COPY
+[2016.01.30-19.50.14:707][901]Cmd: EDIT PASTE
+[2016.01.30-19.50.29:981][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.30-19.50.35:709][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.30-19.50.36:339][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.30-19.50.37:167][191]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (DoorTrigger)
+[2016.01.30-19.51.25:803][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_195.EdGraphPin_28269''
+[2016.01.30-19.51.25:803][991]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_504 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_504
+[2016.01.30-19.51.25:803][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_504.EdGraphPin_27809''
+[2016.01.30-19.51.25:803][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_195.EdGraphPin_28268''
+[2016.01.30-19.51.25:804][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_203.EdGraphPin_28390''
+[2016.01.30-19.51.25:804][991]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_513 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_513
+[2016.01.30-19.51.25:804][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_513.EdGraphPin_27842''
+[2016.01.30-19.51.25:804][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ActorBoundEvent_203.EdGraphPin_28389''
+[2016.01.30-19.51.25:804][991]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_504 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_504
+[2016.01.30-19.51.25:804][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_504.EdGraphPin_27812''
+[2016.01.30-19.51.25:804][991]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_DynamicCast_513 or K2Node_DynamicCast /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_DynamicCast_513
+[2016.01.30-19.51.25:804][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_513.EdGraphPin_27845''
+[2016.01.30-19.51.25:805][991]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_93 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_93
+[2016.01.30-19.51.25:805][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_93.EdGraphPin_27831''
+[2016.01.30-19.51.25:805][991]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_93 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_93
+[2016.01.30-19.51.25:805][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_93.EdGraphPin_27827''
+[2016.01.30-19.51.25:806][991]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_94 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_94
+[2016.01.30-19.51.25:806][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_94.EdGraphPin_27864''
+[2016.01.30-19.51.25:806][991]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap.EventGraph.K2Node_VariableSet_94 or K2Node_VariableSet /Game/Blueprint/TriggerBP.TriggerBP:EventGraph.K2Node_VariableSet_94
+[2016.01.30-19.51.25:806][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_94.EdGraphPin_27860''
+[2016.01.30-19.51.25:807][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_20.EdGraphPin_27923''
+[2016.01.30-19.51.25:807][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_20.EdGraphPin_27925''
+[2016.01.30-19.51.25:808][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_EnumEquality_6.EdGraphPin_27915''
+[2016.01.30-19.51.25:808][991]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_20.EdGraphPin_27924''
+[2016.01.30-19.52.52:612][820]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-19.52.59:289][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.01.30-19.53.01:011][304]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.01.30-19.53.06:779][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.01.30-19.53.08:212][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.01.30-19.53.13:295][ 25]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.01.30-19.53.16:063][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.01.30-19.53.17:376][187]LogSavePackage: Save=932.764343ms
+[2016.01.30-19.53.17:376][187]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/ThirdPersonExampleMapEA85AAA6490B3BEB150020835DA709B3.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.01.30-19.53.17:387][187]LogSavePackage: Total save time: 962.413523ms
+[2016.01.30-19.53.17:387][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.01.30-19.53.17:421][187]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.261
+[2016.01.30-19.53.17:601][187]LogSavePackage: Save=120.566498ms
+[2016.01.30-19.53.17:601][187]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/ThirdPersonCharacter07E72E6B44E781FFF202E2860E8E3202.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.01.30-19.53.17:610][187]LogSavePackage: Total save time: 138.557442ms
+[2016.01.30-19.53.17:610][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.01.30-19.53.17:915][202]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.01.30-19.53.17:985][202]LogBlueprint:Error: [compiler TriggerBP] Error The type of  Object  is undetermined.  Connect something to  Cast To Pawn  to imply a specific type.
+[2016.01.30-19.53.17:985][202]LogBlueprint:Error: [compiler TriggerBP] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.01.30-19.53.17:988][202]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-19.53.18:317][202]BlueprintEditorCompileResults: Info [5964.21] Compile of ThirdPersonCharacter successful! [in 401 ms]
+[2016.01.30-19.58.46:643][927]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2016.01.30-19.58.46:720][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-19.58.46:766][927]BlueprintEditorCompileResults: Info [6292.64] Compile of ThirdPersonExampleMap successful! [in 122 ms]
+[2016.01.30-19.58.50:390][ 60]LogSavePackage: Save=852.213135ms
+[2016.01.30-19.58.50:390][ 60]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/ThirdPersonExampleMapC3B47A0E4303B83BE6A3A5ACC4B78FD0.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.01.30-19.58.50:399][ 60]LogSavePackage: Total save time: 905.077212ms
+[2016.01.30-19.58.50:399][ 60]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.01.30-19.58.50:426][ 60]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.165
+[2016.01.30-19.59.05:938][570]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-19.59.05:938][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-19.59.34:725][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-19.59.34:725][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-19.59.39:952][679]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 30, 2016, 3:59:39 AM)
+[2016.01.30-19.59.39:952][679]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.30-19.59.40:012][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059757s)
+[2016.01.30-19.59.40:019][679]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.30-19.59.40:019][679]LogPlayLevel: PIE: World Init took: (0.006955s)
+[2016.01.30-19.59.40:020][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.067069s)
+[2016.01.30-19.59.40:020][679]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-19.59.40:079][679]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-19.59.40:092][679]LogInit: FAudioDevice initialized.
+[2016.01.30-19.59.40:122][679]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.30-19.59.40:125][679]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.01.30-11.59.40
+[2016.01.30-19.59.40:125][679]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-19.59.40:125][679]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-19.59.40:127][679]LogWorld: Bringing up level for play took: 0.004617
+[2016.01.30-19.59.40:129][679]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 4.662
+[2016.01.30-19.59.40:129][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.00.28:409][912]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.00.28:467][912]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.00.28:514][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000042FB68E0
+[2016.01.30-20.01.01:518][794]BlueprintLog: New page: Compile TriggerBP
+[2016.01.30-20.01.01:570][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-20.01.01:623][794]BlueprintEditorCompileResults: Info [6427.49] Compile of TriggerBP successful! [in 104 ms]
+[2016.01.30-20.01.02:368][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/TriggerBP" FILE="../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/Blueprint/TriggerBP.uasset" SILENT=true
+[2016.01.30-20.01.02:404][834]LogSavePackage: Save=26.652685ms
+[2016.01.30-20.01.02:404][834]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/TriggerBP544BBEB945254E084B4292927E15C910.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/Blueprint/TriggerBP.uasset'
+[2016.01.30-20.01.02:410][834]LogSavePackage: Total save time: 40.192250ms
+[2016.01.30-20.01.02:410][834]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/Blueprint/TriggerBP.uasset
+[2016.01.30-20.01.12:885][287]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.01.12:885][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-20.01.12:886][287]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 30, 2016, 4:01:12 AM)
+[2016.01.30-20.01.12:886][287]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.30-20.01.12:940][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054063s)
+[2016.01.30-20.01.12:945][287]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.30-20.01.12:945][287]LogPlayLevel: PIE: World Init took: (0.005749s)
+[2016.01.30-20.01.12:947][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.060956s)
+[2016.01.30-20.01.13:016][287]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-20.01.13:033][287]LogInit: FAudioDevice initialized.
+[2016.01.30-20.01.13:065][287]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.30-20.01.13:069][287]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.01.30-12.01.13
+[2016.01.30-20.01.13:069][287]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-20.01.13:069][287]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-20.01.13:070][287]LogWorld: Bringing up level for play took: 0.004524
+[2016.01.30-20.01.13:070][287]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.402
+[2016.01.30-20.01.13:071][287]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.02.49:923][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.02.49:988][538]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.02.50:033][538]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038832340
+[2016.01.30-20.02.54:986][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.30-20.07.19:262][332]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2016.01.30-20.07.19:410][332]BlueprintEditorCompileResults: Info [6805.26] Compile of ThirdPersonExampleMap successful! [in 148 ms]
+[2016.01.30-20.07.21:363][373]LogSavePackage: Save=833.693848ms
+[2016.01.30-20.07.21:363][373]LogSavePackage: Moving '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Saved/ThirdPersonExampleMapF006785E44CCAF389805E5846EB51B3C.tmp' to '../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.01.30-20.07.21:374][373]LogSavePackage: Total save time: 893.081363ms
+[2016.01.30-20.07.21:374][373]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/srayl/Documents/GitHub/GGJ_2016/GGJ_2016/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.01.30-20.07.21:407][373]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.218
+[2016.01.30-20.07.33:459][947]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.07.33:459][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-20.07.33:459][947]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 30, 2016, 4:07:33 AM)
+[2016.01.30-20.07.33:459][947]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.30-20.07.33:519][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060026s)
+[2016.01.30-20.07.33:522][947]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.30-20.07.33:523][947]LogPlayLevel: PIE: World Init took: (0.003973s)
+[2016.01.30-20.07.33:523][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.064189s)
+[2016.01.30-20.07.33:605][947]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-20.07.33:621][947]LogInit: FAudioDevice initialized.
+[2016.01.30-20.07.33:657][947]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.30-20.07.33:661][947]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.01.30-12.07.33
+[2016.01.30-20.07.33:661][947]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-20.07.33:662][947]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-20.07.33:662][947]LogWorld: Bringing up level for play took: 0.004179
+[2016.01.30-20.07.33:663][947]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.17
+[2016.01.30-20.07.33:663][947]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.08.20:471][345]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.08.20:522][345]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.08.20:573][345]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000BFEB9580
+[2016.01.30-20.08.28:470][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2016.01.30-20.08.29:801][878]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.08.29:802][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-20.08.29:802][878]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 30, 2016, 4:08:29 AM)
+[2016.01.30-20.08.29:802][878]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.01.30-20.08.29:856][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054564s)
+[2016.01.30-20.08.29:857][878]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.30-20.08.29:858][878]LogPlayLevel: PIE: World Init took: (0.001418s)
+[2016.01.30-20.08.29:858][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.056435s)
+[2016.01.30-20.08.29:925][878]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-20.08.29:943][878]LogInit: FAudioDevice initialized.
+[2016.01.30-20.08.29:976][878]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.30-20.08.29:980][878]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.01.30-12.08.29
+[2016.01.30-20.08.29:980][878]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-20.08.29:980][878]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-20.08.29:981][878]LogWorld: Bringing up level for play took: 0.004361
+[2016.01.30-20.08.29:981][878]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.485
+[2016.01.30-20.08.29:981][878]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.11.53:950][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.11.54:014][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.01.30-20.11.54:137][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000009098C400
+[2016.01.30-20.21.00:911][962]LogEditorTransaction: Undo Delete current selection
+[2016.01.30-20.21.00:942][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30
